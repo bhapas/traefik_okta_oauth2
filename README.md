@@ -2,7 +2,7 @@
 This project demonstrates how to integrate Traefik Ingress Controller with Okta OAuth2 authentication in a Kubernetes environment. It showcases:
 
 - Setting up Traefik as an ingress controller in Kubernetes
-- Configuring Traefik middleware for OAuth2 authentication
+- Configuring Traefik middleware for OAuth2-Proxy authentication
 - Integration with Okta as the identity provider
 - Testing the setup using Traefik's whoami service
 
