@@ -23,10 +23,10 @@ spec:
         - --code-challenge-method=S256
         - --upstream="static://200"
         - --provider-display-name="Sign in with Okta"
-        - --client-id=0oao6dkwijey88znZ5d7
-        - --client-secret=_TYoW22BmJh60XW8q5SlSkXCW4Hf_HBWs4Zp4U8bpoh7tUBCmjJJvW81WUWfyN-D
+        - --client-id=<redacted>
+        - --client-secret=<redacted>
         - --redirect-url=https://auth.example.com/oauth2/callback
-        - --oidc-issuer-url=https://dev-45536880.okta.com/oauth2/default
+        - --oidc-issuer-url=https://<redacted>.okta.com/oauth2/default
         - --cookie-secret=1234567812345678
         - --skip-provider-button=true
         - --reverse-proxy=true
