@@ -8,6 +8,10 @@ This project demonstrates how to integrate Traefik Ingress Controller with Okta 
 
 The implementation provides secure, authenticated access to Kubernetes services through Traefik's OAuth2 middleware capabilities.
 
+The architecture will follow
+
+![Oauth2-Proxy with Okta](image.png)
+
 ## Minikube with Docker Driver Setup
 
 ### Prerequisites
@@ -108,3 +112,8 @@ kubectl get middleware
 kubectl get ingressroute
 ```
 
+## Verify the flow
+
+1. Go to a browser and run `https://auth.example.com/whoami`
+2. This should redirect to Okta login page , signin with credentials and verify with MFA.
+3. For an authenticated user you should be redirected back to `/whoami` which displays user info and OS info.
